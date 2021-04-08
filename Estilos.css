@@ -1,0 +1,80 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a{
+    padding: 25px;
+    margin-top: 47px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: rgb(61, 66, 66);
+    background: rgb(56, 156, 173);
+}
+
+
+#cabeza{
+    position: fixed;
+    width: 100%;
+    background: rgb(56, 156, 173);
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 0px; */
+}
+
+.menuCerrado{
+    z-index: 998;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.550);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    display: flex;
+    flex-flow: column nowrap;
+    transform: translate(0,-120%);
+    transition: transform 0.3s ease;
+}
+.menuAbierto{
+    z-index: 998;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.550);
+    width: 100%;
+    height: 104%;
+    text-align: center;
+    font-size: 28px;
+    display: flex;
+    flex-flow: column nowrap;
+    transform: translate(0,-3%);
+    transition: transform 0.3s ease;
+}
+    .botonMenu{
+        position: fixed;
+        left: 0px;
+        top: 0%;
+        z-index: 999;
+    }
+
+        
+
+
+.espacio{
+    padding: 8rem;
+    padding-top: 3rem;
+    /* cada seccion ocupa como minimo el tamaño de la pantalla */
+    min-height: 100vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
