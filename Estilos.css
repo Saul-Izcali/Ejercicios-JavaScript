@@ -21,11 +21,11 @@ a:hover{
     background: rgb(56, 156, 173);
 }
 
-
+ /* Cabeza de la pagina */
 #cabeza{
     position: fixed;
     width: 100%;
-    background: rgb(56, 156, 173);
+    background: rgb(99, 178, 194);
     text-align: center;
     font-size: 40px;
     /* margin-top: 0px; */
@@ -63,6 +63,23 @@ a:hover{
         top: 0%;
         z-index: 999;
     }
+
+
+.botonSec1{
+    font-size: 18px;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 8px;
+    background: rgb(51, 104, 104);
+    color: seashell;
+}
+.botonSec1:hover{
+    background: rgb(183, 179, 189);
+    color: #000;
+}
+.espacioChico{
+    margin-top: 120px;
+}
 
         
 
