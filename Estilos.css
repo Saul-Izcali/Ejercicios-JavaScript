@@ -31,6 +31,7 @@ a:hover{
     /* margin-top: 0px; */
 }
 
+                /* MENU */
 .menuCerrado{
     z-index: 998;
     position: fixed;
@@ -65,6 +66,7 @@ a:hover{
     }
 
 
+                /* SECCION 1 - RELOJ/ALARMA */
 .botonSec1{
     font-size: 18px;
     border-radius: 5%;
@@ -73,17 +75,33 @@ a:hover{
     background: rgb(51, 104, 104);
     color: seashell;
 }
-.botonSec1:hover{
-    background: rgb(183, 179, 189);
-    color: #000;
-}
+    .botonSec1:hover{
+        background: rgb(183, 179, 189);
+        color: #000;
+    }
 .espacioChico{
     margin-top: 120px;
 }
 
+                    /* SECCION 2 - EVENTOS TECLADO */
+#fondoCirculoSec2{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background: rgb(138, 136, 139);
+}
+    #circulo{
+        /* El relative es importante para que funcione el "left", "top" y esos */
+        position: relative; 
+        margin: 0px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: rgb(99, 178, 194);
+    }
         
 
-
+    /* ESPACIO ENTRE SECCIONES */
 .espacio{
     padding: 8rem;
     padding-top: 3rem;
