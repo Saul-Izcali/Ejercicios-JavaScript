@@ -16,9 +16,13 @@ a{
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover{
-    color: rgb(61, 66, 66);
-    background: rgb(56, 156, 173);
+    a:hover{
+        color: rgb(61, 66, 66);
+        background: rgb(56, 156, 173);
+    }
+
+h3{
+    color: rgb(44, 44, 49);
 }
 
  /* Cabeza de la pagina */
