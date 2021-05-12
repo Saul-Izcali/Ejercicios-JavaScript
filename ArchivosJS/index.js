@@ -1,5 +1,6 @@
     // INDICE
 import menuHamburgesa from "./MenuHamburgesa.js";
+import RegresarArriba from "./RegresarArriba.js";
 import Seccion1 from "./Seccion1.js";
 import Seccion2 from "./Seccion2.js";
 import Seccion3 from "./Seccion3.js";
@@ -24,7 +25,9 @@ document.addEventListener("click", (e) => {
     }
 });
 
-
+window.addEventListener("scroll",(e)=>{
+    RegresarArriba();
+});
 
 
 

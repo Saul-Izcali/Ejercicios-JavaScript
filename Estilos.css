@@ -25,6 +25,30 @@ h3{
     color: rgb(44, 44, 49);
 }
 
+/* Circulo para regresar hasta arriba */
+.regresaArriba{
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    background: rgb(124, 117, 117);
+}
+.regresaArribaDesaparecer{
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    background: rgb(124, 117, 117);
+    /* transform: translate(-200%,-120%); */
+}
+
+
  /* Cabeza de la pagina */
 #cabeza{
     position: fixed;
