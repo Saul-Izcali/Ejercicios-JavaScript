@@ -25,6 +25,35 @@ h3{
     color: rgb(44, 44, 49);
 }
 
+ /* Cabeza de la pagina */
+#cabeza{
+    position: fixed;
+    width: 100%;
+    background: rgb(99, 178, 194);
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 0px; */
+}
+
+/* Boton dark mode */
+#dark-ligth{
+    position: fixed;
+    left: 95%;
+    top: 2px;
+    height: 42px;
+    width: 42px;
+    font-size: 25px;
+    border-radius: 50%;
+    background: rgb(161, 157, 157);
+}
+    #dark-ligth:hover{
+        background: rgb(37, 36, 36);
+    }
+    .claseOscura{
+        background: rgb(49, 47, 47);
+        color: rgb(189, 235, 235);
+    }
+
 /* Circulo para regresar hasta arriba */
 .regresaArriba{
     position: fixed;
@@ -35,7 +64,11 @@ h3{
     padding: 5px;
     border-radius: 50%;
     background: rgb(124, 117, 117);
+    transition: transform 0.3s ease;
 }
+    .regresaArriba:hover{
+        background: rgb(99, 178, 194);
+    }
 .regresaArribaDesaparecer{
     position: fixed;
     left: 95%;
@@ -45,19 +78,11 @@ h3{
     padding: 0px;
     border-radius: 50%;
     background: rgb(124, 117, 117);
+    transition: transform 0.3s ease;
     /* transform: translate(-200%,-120%); */
 }
 
 
- /* Cabeza de la pagina */
-#cabeza{
-    position: fixed;
-    width: 100%;
-    background: rgb(99, 178, 194);
-    text-align: center;
-    font-size: 40px;
-    /* margin-top: 0px; */
-}
 
                 /* MENU */
 .menuCerrado{

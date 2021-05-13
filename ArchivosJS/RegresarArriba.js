@@ -9,7 +9,7 @@ export default function RegresarArriba(){
 
     document.addEventListener("click", (e)=>{
         if(e.target.matches("#getTop")){
-            window.scrollTo(0,0);   //  Scrollea hasta la posicion (x,y) (0,0) de la pantalla
+            window.scrollTo(0,0);   //  Scrollea hasta la posicion (x,y) -> (0,0) de la pantalla
         }
     });
 }

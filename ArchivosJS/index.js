@@ -1,6 +1,7 @@
     // INDICE
 import menuHamburgesa from "./MenuHamburgesa.js";
 import RegresarArriba from "./RegresarArriba.js";
+import TemaOscuro from "./TemaOscuro.js";
 import Seccion1 from "./Seccion1.js";
 import Seccion2 from "./Seccion2.js";
 import Seccion3 from "./Seccion3.js";
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 document.addEventListener("click", (e) => {
-
+    
     if(e.target.matches(".botonSec1")){
         Seccion1(e);
     }
@@ -30,4 +31,5 @@ window.addEventListener("scroll",(e)=>{
 });
 
 
+TemaOscuro("#dark-ligth", "claseOscura");
 

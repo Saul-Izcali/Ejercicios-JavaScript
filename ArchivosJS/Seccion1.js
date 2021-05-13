@@ -13,8 +13,7 @@ export default function Seccion1(elemento){
 
         // elemento.target.disabled = true;
         contador = setInterval(() =>{
-            let clockHour = new Date().toLocaleTimeString();
-            $tiempo.textContent = clockHour;
+            $tiempo.textContent = new Date().toLocaleTimeString();
         }, 1000);
 
         // ------------ Este de abajo es un cronometro------------------
