@@ -4,7 +4,7 @@
 let $cronometro = document.getElementById("tiempo");
 let tiempo, seg, min, hora;
 
-export default function Seccio32(fecha){
+export default function Seccion3(fecha){
     // tiempo = Date.now();
     // console.log(tiempo);
     // console.log(fecha.getTime());

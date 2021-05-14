@@ -11,7 +11,7 @@ export default function menuHamburgesa(boton){
         // el metodo matches recibe como parametro cualquier elemento css valido
         // `${boton} *` es para hacer que cualquier hijo del boton tambien funcione, en este caso los span
         // que hacen las lineas
-        if(e.target.matches( boton) || e.target.matches( `${boton} *`) || e.target.matches("a")){
+        if(e.target.matches( boton) || e.target.matches( `${boton} *`) || e.target.matches(".anclaMenu")){
             if(activo){
                 document.getElementById("panelMenu").className = "menuCerrado";
                 // document.getElementById("abrirMenu").className = "hamburger botonMenu is-active";
