@@ -2,10 +2,13 @@
 
 export default function Seccion4(){
   
+    // Este evento es para cada que se cambie el tamaño de la ventana
     window.addEventListener("resize",(e)=>{
         responsive();
     });
 
+    // Esta llamada a la funciones por si se entra desde un dispositivo movil ya que estos no puede cambiar el  
+    // tamaño de la pantalla
     responsive();
 
     function responsive(){
@@ -28,6 +31,11 @@ export default function Seccion4(){
         }
     }
 }
+
+
+
+
+        // Marca muchas alertas, seria conveniente checarlo
 
 
 

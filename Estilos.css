@@ -178,11 +178,6 @@ h3{
         background: rgb(99, 178, 194);
     }
 
-
-#video{
-}
-#mapa{
-}
 .mapa_video{
     color: rgb(53, 53, 197);
     font-size: 18px;
@@ -192,7 +187,25 @@ h3{
     align-items: center;
     justify-content: center;
 }
-        
+       
+.formularioResponsive{
+    box-shadow: 1px 2px 5px black;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.botonesResponsive{
+    font-size: 15px;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin: 10px;
+    padding: 8px;
+    background: rgb(51, 104, 104);
+    color: seashell;
+}
+    .botonesResponsive:hover{
+        background: rgb(183, 179, 189);
+        color: #000;
+    }
 
     /* ESPACIO ENTRE SECCIONES */
 .espacio{
