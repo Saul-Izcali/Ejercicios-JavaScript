@@ -8,6 +8,8 @@ import Seccion3 from "./Seccion3.js";
 import Seccion4 from "./Seccion4.js";
 import Seccion5 from "./Seccion5.js";
 import Seccion6 from "./Seccion6.js";
+import Seccion7 from "./Seccion7.js";
+import Seccion8 from "./Seccion8.js";
 import Conexion from "./OnOffLine.js";
 
 
@@ -22,11 +24,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
     Seccion4();
     Seccion5();
     Seccion6();
+    Seccion7();
+    Seccion8();
     Conexion();
 });
 
 document.addEventListener("click", (e) => {
-    
+
     if(e.target.matches(".botonSec1")){
         Seccion1(e);
     }

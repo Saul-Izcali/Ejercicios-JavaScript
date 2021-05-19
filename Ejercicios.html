@@ -10,14 +10,9 @@
 </head>
 <body>
     
-    <header id="cabeza">
-        <p>Ejercicios del DOM</p>
-    </header>
+    <header id="cabeza"><p>Ejercicios del DOM</p></header>
 
-    <div id="conexionInternet">
-        <!-- <P>Estado de la conexion</P> -->
-    </div>
-
+    <div id="conexionInternet"><!-- <P>Estado de la conexion</P> --></div>
     
     <!-- boton y lineas del menu hamburgesa -->
     <button id="abrirMenu" class="hamburger botonMenu" type="button">
@@ -35,9 +30,7 @@
     </div>
 
     <!-- circulo para regresar hasta arriba -->
-    <div>
-        <img id="getTop" src="https://image.flaticon.com/icons/png/512/44/44674.png" alt="Top" class = "regresaArribaDesaparecer">
-    </div>
+    <div><img id="getTop" src="https://image.flaticon.com/icons/png/512/44/44674.png" alt="Top" class = "regresaArribaDesaparecer"></div>
     
     <!-- boton dark mode -->
     <button id="dark-ligth">🌙</button>
@@ -46,8 +39,7 @@
 
         <!-- seccion 1 -->
     <div class="espacio" id="seccion1">
-        <h3 claseOscura>Reloj y alarma</h3>
-        <br>
+        <h3 claseOscura>Reloj y alarma</h3><br>
             <p class="espacioChico" id="contadorDeTiempo"></p>
             <button id="iniciarReloj" class="botonSec1">Iniciar reloj</button>
             <button id="pararReloj" class="botonSec1">Detener reloj</button>
@@ -57,8 +49,7 @@
                 
         <!-- seccion 2 -->
     <div class="espacio" id="seccion2">
-        <h3 claseOscura>Movimientos de teclado</h3>
-            <br>
+        <h3 claseOscura>Movimientos de teclado</h3><br>
             <div id="fondoCirculoSec2">
                 <p id="circulo"></p>
             </div>
@@ -66,25 +57,22 @@
 
         <!-- seccion 3 -->
     <div class="espacio" id="seccion3">
-        <h3 claseOscura >Cuenta regresiva</h3>
-        <br>
+        <h3 claseOscura >Cuenta regresiva</h3><br>
         <p id = "tiempo"></p>
     </div>
 
         <!-- seccion 4 -->
     <div class="espacio" id="seccion4">
-        <h3 claseOscura>Responsive dising</h3>
-        <br>
+        <h3 claseOscura>Responsive dising</h3><br>
         <div id="contVM">
                 <!-- EL contenido de este div se pone dinamicamente desde 
                     "seccion4.js" dependiendo el tamaño de la pantalla -->
-            </div>
+        </div>
     </div>
 
         <!-- Seccion 5 -->
     <div class="espacio" id="seccion5">
-        <h3 claseOscura>Responsive tester</h3>
-        <br>
+        <h3 claseOscura>Responsive tester</h3><br>
             <input type="text" id="url" name="URL" placeholder="URL" class="formularioResponsive"><br>
             <input type="text" id="ancho" name="Ancho" placeholder="Ancho" class="formularioResponsive"><br>
             <input type="text" id="alto" name="Alto" placeholder="Alto" class="formularioResponsive"><br>
@@ -105,8 +93,21 @@
 
             <!-- seccion 7 -->
     <div class="espacio" id="seccion7">
-        <h3 claseOscura> </h3>
-        <br>
+        <h3 claseOscura>Uso de la Webam</h3><br>
+        <video id="webcam"></video><br>
+        <!-- Ambas imagenes empiezan apagadas -->
+        <img id="camara" src="https://image.flaticon.com/icons/png/128/61/61042.png" alt="Camara" class="CM"></img>
+        <img id="mic" src="https://image.flaticon.com/icons/png/128/25/25632.png" alt="Microfono" class="CM"></img>
+    </div>
+
+        <!-- seccion 8 -->
+    <div class="espacio" id="seccion8">
+        <h3 claseOscura>Uso de la Geolocalización</h3><br>
+        <p>El dispositivo se encuentra en: </p>
+        <p id="lon"></p>
+        <p id="lat"></p>
+        <p id="pre">Precisión: </p>
+        <br><a id="ubicacionDispositivo">Ver en Google Maps</a>
     </div>
 
     
