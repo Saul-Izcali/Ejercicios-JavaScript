@@ -10,6 +10,7 @@ import Seccion5 from "./Seccion5.js";
 import Seccion6 from "./Seccion6.js";
 import Seccion7 from "./Seccion7.js";
 import Seccion8 from "./Seccion8.js";
+import Seccion9 from "./Seccion9.js";
 import Conexion from "./OnOffLine.js";
 
 
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     Seccion6();
     Seccion7();
     Seccion8();
+    Seccion9();
     Conexion();
 });
 

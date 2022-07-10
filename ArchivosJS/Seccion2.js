@@ -20,7 +20,7 @@ export default function Seccion2(elemento){
         if(e.keyCode === 115){  // s
             if(vertical < 200)    $circulo.style.top = `${vertical += 5}px`;
         }
-            
+            $circulo.style.height = "0px";
         // console.log(e);
     });
     
